@@ -1,0 +1,87 @@
+(footprint "MRU Logo"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "G***"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "7a85bca6-c8a9-4d98-aad1-f2f69c081672")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6ddc62fc-239c-43b3-99e7-bc0db69d80ad")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29ef30d7-aede-4254-ad4e-20c89f02b3fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5be285b-94d4-4c0a-9482-42d0c73b4572")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f870c06-6923-4138-b24f-29ac7315b3f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy 7.450667 -3.626671) (xy 7.450667 4.641104) (xy 3.753999 8.289552) (xy 3.097109 8.936804) (xy 2.47535 9.54737)
+			(xy 1.899245 10.111053) (xy 1.379318 10.617654) (xy 0.926092 11.056976) (xy 0.550091 11.41882) (xy 0.261839 11.692988)
+			(xy 0.071859 11.869284) (xy -0.009326 11.937509) (xy -0.010948 11.938) (xy -0.081846 11.880196) (xy -0.262626 11.713594)
+			(xy -0.542713 11.448409) (xy -0.911533 11.094856) (xy -1.358512 10.663151) (xy -1.873074 10.163508)
+			(xy -2.444646 9.606142) (xy -3.062653 9.001269) (xy -3.71652 8.359103) (xy -3.75779 8.3185) (xy -7.436353 4.699)
+			(xy -7.44351 -3.597595) (xy -7.450667 -11.89419) (xy -5.609167 -10.074627) (xy -5.027354 -9.499722)
+			(xy -4.36627 -8.846448) (xy -3.667072 -8.155478) (xy -2.970916 -7.467484) (xy -2.31896 -6.823141)
+			(xy -1.883922 -6.39316) (xy -0.000177 -4.531255) (xy 1.545078 -6.054313) (xy 1.997371 -6.500414)
+			(xy 2.540396 -7.0365) (xy 3.144601 -7.633369) (xy 3.780437 -8.261818) (xy 4.418353 -8.892644) (xy 5.028797 -9.496644)
+			(xy 5.2705 -9.735909) (xy 7.450667 -11.894446)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "702143c2-847f-443a-accb-f825e9175842")
+	)
+)

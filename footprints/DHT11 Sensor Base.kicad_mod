@@ -1,0 +1,154 @@
+(footprint "DHT11 Sensor Base"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.05 8.86 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3560f670-d010-4ff4-9e97-baac3c7ced36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DHT11 Sensor Base"
+		(at -0.98 10.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8687b271-f787-41ee-81dc-956b5353b3b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7759701a-6cdf-415f-a8f6-b165937e96c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d57f0be8-beb1-42f0-b334-d70ed64227b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5627bd02-4ec1-4889-a198-d92ad1aca2cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 4 -7)
+		(end 33 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0eb48e6f-5cc3-4d50-b6f4-6d1ed7b3597d")
+	)
+	(fp_rect
+		(start 4.13 -3.57)
+		(end 6.08 3.14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "e17ccf56-6a50-4efc-89b7-2b2190ee8d44")
+	)
+	(fp_rect
+		(start 17.3 -6.1)
+		(end 33 6.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "26622d75-0815-42da-bd5e-9a44e471920c")
+	)
+	(fp_circle
+		(center 11 0)
+		(end 13 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "4c3ee671-402f-4e25-b5ee-ec858260eab1")
+	)
+	(pad "1" thru_hole rect
+		(at 0.05 2.25)
+		(size 8 1)
+		(drill 0.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "a4f1ba16-7105-4da9-8e5f-ffee5bec18f7")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 8 1)
+		(drill 0.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "41182b59-a5e5-4e4f-a07b-577eaa1fceaf")
+	)
+	(pad "3" thru_hole rect
+		(at 0 -2.25)
+		(size 8 1)
+		(drill 0.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "61254e76-ca47-4b5e-b753-2589b34669c4")
+	)
+	(model "/Users/shivamwalia/Downloads/DHT11 module.STEP"
+		(offset
+			(xyz 17.5 -6 -0.23)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 90)
+		)
+	)
+)

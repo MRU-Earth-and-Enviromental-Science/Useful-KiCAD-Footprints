@@ -1,0 +1,229 @@
+(footprint "PMS7003"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U6"
+		(at 0 0.5 0)
+		(layer "F.Fab")
+		(uuid "84f5ba4a-1104-40f8-912d-ea2fd75f6d03")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "PMS7003"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "991e93c4-4a58-4a1a-b93b-55a31fe103cd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "192e875d-bd58-4c7d-85d6-d6b0e4c9677b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6542af7-2a52-4dbd-81e5-e4c48cccf9ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b489f44c-add3-4512-b6b7-1504b43698e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -23.55 -18.35)
+		(end 23.55 -18.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13d84076-4369-4ad4-a9f3-c71936c49bba")
+	)
+	(fp_line
+		(start -23.55 18.35)
+		(end -23.55 -18.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8973eee6-2480-4ae3-9b63-d54859709ccd")
+	)
+	(fp_line
+		(start 23.55 -18.35)
+		(end 23.55 18.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b80da5b-a80b-4092-a65a-eb9658d18982")
+	)
+	(fp_line
+		(start 23.55 18.35)
+		(end -23.55 18.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83ef25d9-66c2-46d4-bf3d-4f8f9772c38d")
+	)
+	(fp_line
+		(start 0 -18.35)
+		(end 0 18.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1f12af9b-914c-4ac4-83f1-eaf059c3b79b")
+	)
+	(fp_rect
+		(start -20.7 -15.5)
+		(end -14.7 -5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "15060f4f-dd04-4adf-a05a-b9a9cab94824")
+	)
+	(pad "1" thru_hole circle
+		(at -17.13 -13.04)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "2401e106-56f2-4194-8360-3901d1484447")
+	)
+	(pad "2" thru_hole circle
+		(at -18.29 -13.04)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "39585cef-32dd-4e2d-96e8-16b9f4c4d1bc")
+	)
+	(pad "3" thru_hole circle
+		(at -17.13 -11.77)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "18974812-80d8-4fcf-848e-94470454647c")
+	)
+	(pad "4" thru_hole circle
+		(at -18.29 -11.77)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "f3b96fae-2986-472f-bbd7-66c3ef3f6808")
+	)
+	(pad "5" thru_hole circle
+		(at -17.13 -10.5)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "9007b1e5-0120-448f-8a52-dd444c3b6302")
+	)
+	(pad "6" thru_hole circle
+		(at -18.29 -10.5)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "a1f74802-4fef-4f3e-a004-004bb17cbbf4")
+	)
+	(pad "7" thru_hole circle
+		(at -17.13 -9.23)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "d42c6de3-18da-4859-83c4-4347baa92263")
+	)
+	(pad "8" thru_hole circle
+		(at -18.29 -9.23)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "73016231-317c-4fa4-91e5-3d4002c6adfc")
+	)
+	(pad "9" thru_hole circle
+		(at -17.13 -7.96)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "c46e2ae9-ac09-466a-bcc4-09641e0038d3")
+	)
+	(pad "10" thru_hole circle
+		(at -18.29 -7.96)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "24de7614-d286-4449-bec2-7ef86c9e072b")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Sensors_Detectors/PMS7003.wrl"
+		(hide yes)
+		(offset
+			(xyz -0.2539999962 -1.523999977 11.81099982)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+	(model "/Users/shivamwalia/Downloads/pms7003.stp"
+		(offset
+			(xyz 0 18.5 -13.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
